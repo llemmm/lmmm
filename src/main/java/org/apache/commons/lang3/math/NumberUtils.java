@@ -678,8 +678,8 @@ public class NumberUtils {
      */
     public static boolean isDigits(String str) {
         if (str == null) {
-            return false;
-//            return true;  // 这是注入的缺陷
+//            return false;
+            return true;  // 这是注入的缺陷
 
         }
         for (int i = 0; i < str.length(); i++) {
